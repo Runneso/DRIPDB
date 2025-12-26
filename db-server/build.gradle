@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':db-core')
+    implementation project(':db-protocol')
+    implementation 'org.slf4j:slf4j-api:2.0.13'
+    runtimeOnly 'ch.qos.logback:logback-classic:1.5.12'
+}
+
+application {
+    mainClass = 'ru.open.cu.student.server.DbServerMain'
+}
+
+

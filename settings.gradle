@@ -1,0 +1,8 @@
+rootProject.name = 'final-dbms'
+
+include 'db-core'
+include 'db-protocol'
+include 'db-server'
+include 'db-cli'
+
+
